@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function page() {
+export default function Page() {
   return (
-    <div>page</div>
-  )
+    <div className="relative min-h-screen">
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className=" p-6 rounded text-[48px]">404 error</div>
+      </div>
+    </div>
+  );
 }
