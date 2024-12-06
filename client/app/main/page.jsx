@@ -2,10 +2,10 @@
 import { useState } from "react";
 
 export default function page() {
-  const [error, setError] = useState("");
-  const [year, setYear] = useState("");
-  const [sign, setSign] = useState("");
-  const [gender, setGender] = useState("");
+//   const [error, setError] = useState("");
+//   const [year, setYear] = useState("");
+//   const [sign, setSign] = useState("");
+//   const [gender, setGender] = useState("");
 
   return (
     <div className="max-w-[1440px] w-full h-[100vh] m-auto flex items-center justify-center">
